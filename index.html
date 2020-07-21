@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator on JS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item wrapperInput">
+            <form name="form">
+                <input type="text" name="textview" readonly>
+            </form>
+        </div>
+        <div class="item clean" data-id="clear">C</div>
+        <div class="item back" data-id="back">&larr;</div>
+        <div class="item" data-id="plus">+</div>
+        <div class="item" data-id="minus">-</div>
+        <div class="item" data-id="multiply">&times;</div>
+        <div class="item" data-id="share">&divide;</div>
+        <div class="item" data-id="seven">7</div>
+        <div class="item" data-id="eight">8</div>
+        <div class="item" data-id="nine">9</div>
+        <div class="item" data-id="openParenthesis">(</div>
+        <div class="item" data-id="four">4</div>
+        <div class="item" data-id="five">5</div>
+        <div class="item" data-id="six">6</div>
+        <div class="item" data-id="closedParenthesis">)</div>
+        <div class="item" data-id="one">1</div>
+        <div class="item" data-id="two">2</div>
+        <div class="item" data-id="three">3</div>
+        <div class="item equal" data-id="equal">=</div>
+        <div class="item zero" data-id="zero">0</div>
+        <div class="item" data-id="dot">.</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
